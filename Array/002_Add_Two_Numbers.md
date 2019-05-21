@@ -1,4 +1,4 @@
-#002_Add_Two_Numbers
+# 002_Add_Two_Numbers
 
 ## Question
 You are given *two non-empty linked lists* representing two non-negative integers. The digits are *stored in reverse order* and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
@@ -10,7 +10,7 @@ Since both string are non-empty, just ***walk through two arraies*** and sum up.
 Notice that I only create the ***next*** list node on case **there are still next** or **there is still carry bit**.
 
 ## Code
-···
+```
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode head = new ListNode(0);
         ListNode cur = head;
@@ -38,4 +38,4 @@ Notice that I only create the ***next*** list node on case **there are still nex
         return head;
 
     }
-···
+```
