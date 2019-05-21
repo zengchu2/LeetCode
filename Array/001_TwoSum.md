@@ -16,7 +16,7 @@ and you may not use the same element twice.
   there is a number **j** in the map such that ***i + j = target***.
   
 #### Code-Java
-'''
+```
     public int[] twoSum(int[] nums, int target) {
         // Since assume there must be one solution.
         HashMap<Integer, Integer> buffer = new HashMap<>();
@@ -30,4 +30,4 @@ and you may not use the same element twice.
         }
         return new int[] {0, 0};
     }
-'''
+```
